@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About US</title>
+	<meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <!-- Latest compiled and minified CSS -->
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+           <!-- jQuery library -->
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+           <!-- Latest compiled JavaScript -->
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	       <style type="text/css"> 
+	    *{
+		    margin: 0;
+			padding: 0;
+			font-family: 'Lato', sans-serif;
+		}
+		
+
+		nav{
+		    width: 100%;
+			background-color: #C1C8E4;
+			overflow: hidden;
+		}
+		nav ul{
+		    list-style-type: none;
+			float: right;
+			margin-top: 40px;
+		}
+		nav ul li{
+		    display: inline-block;
+		}
+		
+		nav ul li a{
+			text-decoration: none;
+			padding: 20px 35px;
+			text-align: center;
+			color: #fff;
+			display: block;
+			font-weight: 700;
+			font-size: 20px;
+			
+		}
+		nav ul li a:hover{
+		    color: green;
+		}
+		
+		.logo{
+		    float: left;
+            padding: 5px;
+        }
+         p{
+         font-family:arial bold;
+		 font-size:21px;
+		}
+	    footer{
+            font-family:arial bold;
+			font-size:21px;
+	        text-align: center;
+	        color:white;
+	        background-color: teal;
+            width:100%;
+        }       			
+
+        li{
+         display:inline;
+         font-size:15px;
+        }
+		body{
+		background-color: #C1C8E4;
+		}
+		#x:hover{
+		transform:scale(1.1);
+		}
+	    #y:hover{
+		transform:scale(1.1);
+		}
+		#z:hover{
+		transform:scale(1.1);
+		}
+		#a:hover{
+		transform:scale(1.1);
+		}
+		#b:hover{
+		transform:scale(1.1);
+		}
+	
+
+		
+	</style>
+</head>
+<body>
+	<nav>
+	    <div class="logo">
+		    <img src="C:\Users\Anusha_2\Desktop\Images\yoga1.jpg" width="250px" height="30%">
+		</div>
+		<ul>	
+            <li><a href="HOME.html">HOME</a></li>
+			<li><a href="ABOUT US.html">ABOUT US</a></li>
+			<li><a href="GALLERY.html">GALLERY</a></li>
+			<li><a href="CLASSES.html">CLASSES</a></li>
+			<li><a href="CONTACT US.html">CONTACT US</a></li>		 
+		</ul>	
+	</nav>	
+
+
+<br>
+
+<div id="main-content">
+	<div class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-intervals="200s">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+
+					<img src="C:\Users\Anusha_2\Desktop\Images\yoga27.jpg" style="width:200%;height:400px; ">
+				</div>
+
+				<div class="item">
+					<img src="C:\Users\Anusha_2\Desktop\Images\yoga28.jpg" style="width:200%;height:400px;">
+				</div>
+
+				<div class="item">
+					<img src="C:\Users\Anusha_2\Desktop\Images\yoga30.jpg" style="width:200%;height:400px;">
+				</div>
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+		</div>
+	</div>
+<script>
+var myIndex = 0;
+carousel();
+function carousel()
+ {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) 
+{
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) 
+{
+myIndex = 1
+}    
+    x[myIndex-1].style.display="block";  
+    setTimeout(carousel,1500); 
+}
+</script>
+
+	<br>
+	<center class="pulse animated infinite"><strong class="heading"><span style="color:blue; font-size:40px;"> About</span> <span style="color:blue;font-size:  40px;"> us </span></strong></center>
+		</center>
+		<br>
+		<br>
+		
+		
+		
+<!-- Left-aligned media object -->
+
+		<div class="media"id="x">
+    <div class="media-left">
+      <img src="C:\Users\Anusha_2\Desktop\Images\yoga14.jpg"class="media-object"width="300px" height="150px">
+    </div>
+    <div class="media-body">
+      <p>The "Yoga" is derived from the Sanskrit word "Yuj".The yoga definition comes from a very ancient and proven practice.It is originated from India and became very popular in the west during the last century.Physical exercises along with breathing techniques and meditation have been practiced since the beginning.It is a modern term that describe various levels of physical,mental and spiritual practices.</p>
+									
+    </div>
+  </div>
+		
+		
+		<!-- Right-aligned media object -->
+		
+  <div class="media">
+    <div class="media-body">
+      <p>Yoga is way of living a purposeful and fulfilling life.It is a way of life even if there is not only one yoga definition,most agree that yoga means union,connection,harmony and balance.Moreover,yoga teaches a set of practices.Physical poses(asanas),breathing exercises(pranayama)and meditation(dhyana).Yoga is a powerful method to learn who you are.Yoga in itself is a very effective way to achieve freedom.By practicing yoga,we find liberation from unhealthy desires,emotions and thoughts that lead to suffering.It helps us shape our mind and the way we think.Yoga lets us discover our complete potential and achieve anything.</p>
+				
+      
+    </div>
+    <div class="media-right"id="y">
+     <img src="C:\Users\Anusha_2\Desktop\Images\yoga30.jpg" class="media-object"width="300px" height="150px">
+    </div>
+  </div>
+
+		
+		
+		<!-- Left-aligned media object -->
+		<div class="media">
+    <div class="media-left"id="z">
+      <img src="C:\Users\Anusha_2\Desktop\Images\yoga32.jpg"class="media-object"width="300px" height="150px">
+    </div>
+    <div class="media-body">
+      <p>The Benefits of Yoga and Meditation.In today’s environment,many people are suffering with the stress and anxiety of day to day living and are finding themselves unable to cope with life’s little emergencies.
+   Prescription drugs are on the rise due to the increasing need for people to deal with their stress and anxiety.However,many people are searching for ways to be less stressed and live a happy and healthy life without drugs.The benefits of yoga and meditation to create a more peaceful and healthy lifestyle.</p>
+								
+									
+    </div>
+  </div>
+		
+		
+		
+		<!-- Right-aligned media object -->
+  <div class="media">
+    <div class="media-body">
+      <p>Physical poses(asanas),breathing exercises(pranayama)and meditation(dhyana).Yoga is a powerful method to learn who you are.Yoga in itself is a very effective way to achieve freedom.By practicing yoga,we find liberation from unhealthy desires,emotions and thoughts that lead to suffering.It helps us shape our mind and the way we think.Yoga lets us discover our complete potential and achieve anything.</p>
+				</div>
+    <div class="media-right" id="a">
+     <img src="C:\Users\Anusha_2\Desktop\Images\yoga33.jpg" class="media-object"width="300px"height="150px">
+    </div>
+  </div>
+
+		
+		
+		
+		<!-- Left-aligned media object -->
+		<div class="media">
+    <div class="media-left" id="b">
+      <img src="C:\Users\Anusha_2\Desktop\Images\yoga2.jpg"class="media-object"width="300px" height="150px">
+      
+    </div>
+    <div class="media-body">
+   <p>Prescription drugs are on the rise due to the increasing need for people to deal with their stress and anxiety.However,many people are searching for ways to be less stressed and live a happy and healthy life without drugs.The benefits of yoga and meditation to create a more peaceful and healthy lifestyle.</p>
+									
+									
+    </div>
+  </div>
+		
+	
+	
+						
+							    
+					<br>		
+		
+	          <footer>
+				
+			            <p>Copyright 2020!! Design By Yoga</p>
+			</footer>
+
+		
+</body>
+</html>
